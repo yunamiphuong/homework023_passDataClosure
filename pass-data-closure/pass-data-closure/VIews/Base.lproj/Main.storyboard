@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ldx-Zh-bZ4">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="pass_data_closure" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg1" translatesAutoresizingMaskIntoConstraints="NO" id="UIJ-di-egu">
+                                <rect key="frame" x="-168" y="22" width="639" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MỜI NHẬP 1 SỐ BẤT KỲ TỪ 0 - 100" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z1D-YO-Zr4">
+                                <rect key="frame" x="10" y="375" width="394" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.5409764051" blue="0.84731429820000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="0.58081901069999997" green="0.088427625600000004" blue="0.31863921880000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MỜI NHẬP 1 SỐ BẤT KỲ TỪ 0 - 100" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7BQ-ON-Vp8">
+                                <rect key="frame" x="10" y="375" width="394" height="30"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="0.58081901069999997" green="0.088427625600000004" blue="0.31863921880000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X7o-9g-ZUa">
+                                <rect key="frame" x="10" y="425" width="394" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lim-0F-iho">
+                                <rect key="frame" x="128.33333333333331" y="479" width="157.33333333333331" height="51"/>
+                                <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="QUAY SỐ">
+                                    <color key="titleColor" red="0.45138680930000002" green="0.99309605359999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onQuaySo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rNn-cJ-ZWY"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Số Trúng Thưởng là:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UkJ-ew-JlP">
+                                <rect key="frame" x="10" y="271" width="155" height="21"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Tên của bạn" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3ga-t0-psG">
+                                <rect key="frame" x="10" y="311" width="394" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="z1D-YO-Zr4" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="4up-Ad-Kmq"/>
+                            <constraint firstItem="UkJ-ew-JlP" firstAttribute="top" secondItem="3ga-t0-psG" secondAttribute="top" constant="-40" id="BYz-ca-BzR"/>
+                            <constraint firstItem="3ga-t0-psG" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Bcn-Nx-l8Q"/>
+                            <constraint firstItem="z1D-YO-Zr4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="E4r-Bu-k1M"/>
+                            <constraint firstItem="3ga-t0-psG" firstAttribute="width" secondItem="X7o-9g-ZUa" secondAttribute="width" id="Flg-cR-2me"/>
+                            <constraint firstItem="lim-0F-iho" firstAttribute="top" secondItem="X7o-9g-ZUa" secondAttribute="bottom" constant="20" id="IXY-K3-LKy"/>
+                            <constraint firstItem="X7o-9g-ZUa" firstAttribute="top" secondItem="7BQ-ON-Vp8" secondAttribute="bottom" constant="20" id="Qgp-EF-sx5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="z1D-YO-Zr4" secondAttribute="trailing" constant="10" id="RbV-db-e7W"/>
+                            <constraint firstItem="X7o-9g-ZUa" firstAttribute="width" secondItem="7BQ-ON-Vp8" secondAttribute="width" id="RxH-hd-Mo4"/>
+                            <constraint firstItem="UkJ-ew-JlP" firstAttribute="leading" secondItem="7BQ-ON-Vp8" secondAttribute="leading" id="gK0-9V-mgE"/>
+                            <constraint firstItem="3ga-t0-psG" firstAttribute="height" secondItem="X7o-9g-ZUa" secondAttribute="height" id="i36-W8-5Vo"/>
+                            <constraint firstItem="7BQ-ON-Vp8" firstAttribute="width" secondItem="z1D-YO-Zr4" secondAttribute="width" id="krU-9Q-GfH"/>
+                            <constraint firstItem="lim-0F-iho" firstAttribute="centerX" secondItem="X7o-9g-ZUa" secondAttribute="centerX" id="lOQ-Mn-gbb"/>
+                            <constraint firstItem="lim-0F-iho" firstAttribute="height" secondItem="X7o-9g-ZUa" secondAttribute="height" multiplier="1.5" id="ls5-Ak-tvq"/>
+                            <constraint firstItem="X7o-9g-ZUa" firstAttribute="height" secondItem="7BQ-ON-Vp8" secondAttribute="height" multiplier="1.13333" id="m0v-T2-jvi"/>
+                            <constraint firstItem="7BQ-ON-Vp8" firstAttribute="height" secondItem="z1D-YO-Zr4" secondAttribute="height" id="sOD-xs-adr"/>
+                            <constraint firstItem="X7o-9g-ZUa" firstAttribute="centerX" secondItem="7BQ-ON-Vp8" secondAttribute="centerX" id="suU-pn-KjG"/>
+                            <constraint firstItem="7BQ-ON-Vp8" firstAttribute="centerX" secondItem="z1D-YO-Zr4" secondAttribute="centerX" id="tRp-Za-j0a"/>
+                            <constraint firstItem="lim-0F-iho" firstAttribute="width" secondItem="X7o-9g-ZUa" secondAttribute="width" multiplier="0.4" id="vhI-oC-9P4"/>
+                            <constraint firstItem="7BQ-ON-Vp8" firstAttribute="centerY" secondItem="z1D-YO-Zr4" secondAttribute="centerY" id="wX9-J6-xD4"/>
+                            <constraint firstItem="z1D-YO-Zr4" firstAttribute="top" secondItem="3ga-t0-psG" secondAttribute="bottom" constant="30" id="xEA-hC-waP"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="NCK-2W-kag"/>
+                    <connections>
+                        <outlet property="label1" destination="z1D-YO-Zr4" id="UcO-g1-Bo6"/>
+                        <outlet property="label2" destination="7BQ-ON-Vp8" id="69X-Gh-9ve"/>
+                        <outlet property="labelSoTrungThuong" destination="UkJ-ew-JlP" id="Zu5-L7-FBD"/>
+                        <outlet property="textField1" destination="X7o-9g-ZUa" id="WqN-1I-n46"/>
+                        <outlet property="usernameTextField" destination="3ga-t0-psG" id="m2l-4O-Xll"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="118.20652173913044"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="5Ef-zL-beU">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ldx-Zh-bZ4" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="MfF-XR-zRw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="EWg-kJ-TPd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="urT-mD-0fB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="118.52678571428571"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg1" width="512" height="384"/>
+    </resources>
+</document>
